@@ -30,11 +30,11 @@ header {
 }
 
 .logo {
-    background: url("../images/mustafa-akbari.jpg");
+    background: url("../images/mustafa-akbari.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 550px;
+    min-height: 400px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -68,4 +68,35 @@ header {
 ul li {
     font-size: 15px;
     padding: 0;
+}
+
+.menuitem {
+    height: 180px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 180px;
+}
+
+.menuitem a i {
+    padding-top: 30px;
+    display: block;
+    color: #fafafa;
+    font-size: 25px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
