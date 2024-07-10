@@ -1,11 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*--------------------------------Heading background color*/
+/*--------------------------------colors*/
 .bg-color-name-title {
     background-color: #676767;
 }
 header {
     margin: 0;
+}
+
+.ui-menu-color-home {
+    background-color: #323232;  
+}
+
+.ui-menu-color-resumi {
+    background-color: #444243;
+}
+
+.ui-menu-color-contact {
+    background-color: #646263;
+}
+
+.ui-menu-color-download {
+    background-color: #888888;
 }
 
 /*--------------------------------Heading*/
@@ -39,4 +55,17 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #ffffff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+ul li {
+    font-size: 15px;
+    padding: 0;
 }
