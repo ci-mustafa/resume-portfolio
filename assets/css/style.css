@@ -24,6 +24,21 @@ header {
     background-color: #888888;
 }
 
+/*--------------------------------Special paddings, margins*/
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+}
 /*--------------------------------Heading*/
 .heading {
     margin-left: 50px;
@@ -113,4 +128,13 @@ ul li {
 
 .hvr-bounce-to-top::before {
     background-color: rgba(229, 178, 117, 0.4);
+}
+
+/* ----------------------------------------Footer */
+
+footer {
+    background-color: #676767;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
