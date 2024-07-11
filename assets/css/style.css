@@ -30,7 +30,7 @@ header {
 }
 
 .logo {
-    background: url("../images/mustafa-akbari.png");
+    background: url("../images/profile.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,6 +63,10 @@ header {
 
 .menucontainer {
     font-size: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 ul li {
