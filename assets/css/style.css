@@ -4,8 +4,10 @@
 .bg-color-name-title {
     background-color: #676767;
 }
-header {
-    margin: 0;
+
+.bg-color-three-reasons {
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .ui-menu-color-home {
@@ -24,6 +26,11 @@ header {
     background-color: #888888;
 }
 
+main {
+    background-color: #000000;
+}
+
+
 /*--------------------------------Special paddings, margins*/
 h1, h2, h3, h4 {
     margin: 0;
@@ -38,7 +45,29 @@ h1, h2, h3, h4 {
     font-weight: 300;
     color: #ffffff;
 }
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
 /*--------------------------------Heading*/
+
+header {
+    margin: 0;
+}
+
 .heading {
     margin-left: 50px;
 }
