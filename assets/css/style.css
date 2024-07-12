@@ -38,7 +38,13 @@ main {
     color: #ffffff;
 }
 
+.frontend {
+    color: #14A44D;
+}
 
+.backend {
+    color: #DC4C64;
+}
 
 /*--------------------------------Special paddings, margins*/
 h1, h2, h3, h4 {
@@ -264,4 +270,38 @@ footer {
 .personal-info-item .value {
     position: relative;
     width: 60%;
+}
+
+/* ----------------------------------------Skills */
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    font-family: "Exo", sans-serif;
+    left: 0px;
+    font-weight: 400;
+    padding-top: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 25px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+    
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+.skills-text {
+    font-family: "Exo", sans-serif;
+}
+
+.three-reasons-text {
+    font-family: "Exo", sans-serif;
 }
