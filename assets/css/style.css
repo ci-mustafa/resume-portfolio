@@ -30,6 +30,15 @@ main {
     background-color: #000000;
 }
 
+.key {
+    color: #ffffff;
+}
+
+.value {
+    color: #ffffff;
+}
+
+
 
 /*--------------------------------Special paddings, margins*/
 h1, h2, h3, h4 {
@@ -58,6 +67,7 @@ h1, h2, h3, h4 {
 
 .section-heading {
     font-family: "Exo", sans-serif;
+    color: #ffffff;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
