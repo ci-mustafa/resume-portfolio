@@ -16,6 +16,15 @@
     <!-- CSS link -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Mustafa Akbqri</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "zKaeudc00n6eC4QFx",
+            });
+        })();
+    </script>
 </head>
 
 <body>
@@ -47,7 +56,8 @@
                                         aria-hidden="true"></i> <span>Contact</span></a>
                             </li>
                             <li class="col-6 col-sm-3 ui-menu-color-download list-inline-item menuitem">
-                                <a href="assets/cv/Mustafa-Akbari-V1.1.pdf" class="hvr-bounce-to-top" target="_blank"><i class="fa fa-download" aria-hidden="true"></i>
+                                <a href="assets/cv/Mustafa-Akbari-V1.1.pdf" class="hvr-bounce-to-top" target="_blank"><i
+                                        class="fa fa-download" aria-hidden="true"></i>
                                     <span>Download</span></a>
                             </li>
                         </ul>
@@ -64,7 +74,7 @@
                     <h5 class="uppercase text-center contact-heading">Let's collaborate!</h5>
 
                     <div class="center-form">
-                        <form>
+                        <form onsubmit="return sendMail(this)">
                             <input type="text" name="name" id="fullname" class="form-control" placeholder="Name"
                                 required />
                             <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
@@ -73,7 +83,7 @@
                                 placeholder="Project description" required></textarea>
                             <div class="form-row text-center">
                                 <div class="col">
-                                    <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                                    <button type="submit" class="btn btn-secondary" id="submitbutton">Send Project Request</button>
                                 </div>
                             </div>
                         </form>
@@ -127,7 +137,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="assets/js/sendEmail.js"></script>
 </body>
 
 </html>
